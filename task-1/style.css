@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+ 
+                                  /*navbar */
+
+
+body {
+	margin: 0;
+	background: rgb(219, 211, 211);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #1d3b31;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgb(230, 28, 21);
+}
+
+nav li {
+  
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:rgb(240, 84, 12);
+}
+nav a {
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.navbar-dark .navbar-brand {
+  color: rgb(194, 37, 37);
+}
+nav a:hover {
+  color: rgb(224, 62, 62);
+  text-decoration: none; 
+}
+
+.navbar-nav  li  a:hover {
+  color: rgb(240, 18, 18) !important ;
+}
+
+.nav-link.active a:hover {
+  color: rgba(124, 4, 4, 0.938) !important;
+}
+                                     
+                                /*navbar */     
+
+
+
+                                
+
+
+                                     /*slider-1*/   
+
+.cabecalho{
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:absolute;  
+   width: 100%;
+   height: 700px;
+   }
+
+   .carousel-caption p {
+     margin-bottom: 6rem !important; 
+     font-family: sans-serif;
+     font-weight: 50 !important;
+     font-size: 25px;
+    }
+    .carousel-caption h2 {
+      margin-bottom: 1rem !important; 
+      font-family: sans-serif;
+      font-weight: 50 !important;
+      font-size: 45px;
+
+    }  
+    .btspace {
+      margin-bottom: 3rem;
+      margin-right: 2rem;
+    }                               
+
+                                /*features */  
+  .featbg{
+    background-color: rgb(243, 241, 240);
+  }                              
+  .st{
+    text-align: center !important;
+    font-size: 45px;
+    font-weight: 300;
+  }     
+  .featimg{
+    padding-top: 3rem !important;
+    padding-left: 4rem !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;  
+    width: 80% !important;
+    height: 400px;
+    border-radius: 8rem !important;
+    }                       
+    .featp{
+      padding-top: 2rem;
+      padding-right: 4rem;
+      padding-left: 4rem;
+      text-align: center !important;
+      font-size: 30px;
+      font-weight: 300;
+
+    }
+    .featic{
+      color: rgb(61, 241, 6);
+    }   
+                                                /*features */
+
+
+                                              /* projects */
+ .projbg{background-color: darkorange;}  
+
+.projhead{
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+}                                            
+.c{
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(207, 24, 24, 0.753);
+}
+.f:hover{
+    transform:scale3d(1.05,1.05,1.05);
+    transition: 0.35s;
+    background-color: rgba(236, 211, 204, 0.473);
+    box-shadow: 10px 10px 10px 10px rgba(25, 26, 26, 0.473);
+}
+
+
+.card-body p{
+    color: rgba(211, 98, 32, 0.918);
+    font-weight: 200 !important;
+    font-family:sans-serif ;
+}   
+.projbtn {
+  
+  margin-top: 1.2rem !important;
+  margin-left: 3.8rem !important;
+  margin-bottom: 2.2rem !important; 
+  background-color: #f4511e;
+  border: none;
+  color: rgb(32, 31, 31);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.projbtn:hover {opacity: 0.6}
+
+.projp{
+  margin-left: 2rem !important;
+  margin-left: 2rem !important;
+  color: rgba(211, 98, 32, 0.918);
+  font-weight: 200 !important;
+  font-family:sans-serif ;
+}
+
+                                           
+                                              /* projects*/
+
+
+                                              /* price table*/
+                                           
+.prcbtn {
+  
+  margin-top: 1.2rem !important;
+  margin-right: 0.4rem !important;
+  margin-left: 0.4rem !important;
+  margin-bottom: 2.2rem !important; 
+  background-color: #e92d26;
+  border: none;
+  color: rgb(32, 31, 31);
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.prcbtn:hover { background-color: #f4901e;}
+
+.prc{margin-left: 0.1rem !important;
+  margin-right: 0.1rem !important;}
+
+.prc:hover{
+  transform:scale3d(1.0,1.0,1.0);
+  transition: 0.35s;
+  background-color: rgba(236, 211, 204, 0.473);
+  box-shadow: 5px 5px 5px 5px rgba(25, 26, 26, 0.473);
+}
+.prcp{
+  font-size: 15px;
+  color: #f4901e;
+}
+
+.prch{
+  font-size: 20px;
+  font-weight: 400;
+  color: #f4491e;
+}
+
+                                              /* price table */
+
+
+                                              /* Team Profile */
+.team {
+  padding-bottom : 100px;
+  position: relative;
+}
+
+.svg-path{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.team .margin{
+  max-width: 900px;
+  width: 90%;
+  margin: auto;
+}
+.member {
+  width: 150px;
+  margin: 25px 60px;
+}
+.image-container:hover .icons {
+  visibility: visible;
+  display: block;
+}
+.team-fellow {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 2px solid var(--dark-gray);
+  margin: auto;
+}
+.team-heading {
+  font-size: 35px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top : 80px !important;
+}
+.flex-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.member .name {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.member .profession {
+  color: var(--dark-gray);
+  margin: 5px auto;
+}
+.image-container {
+  position: relative;
+}
+.icons {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #f5430dd5;
+  font-size: 30px;
+  padding-top: 60px;
+  display: none;
+  visibility: hidden;
+  opacity: 0.1px;
+  cursor: pointer;
+}
+.icons a {
+  margin: 5px;
+  color : rgb(233, 236, 22);
+}
+                                                      /* team profile */   
+                                                      
+                                                      
+
+/*  */
+                                                      /* Gallery  */
+
+.main-showcase {
+  height: 400px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.showcasediv {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.gallery {
+  background-color:darkorange;
+  color : rgb(27, 24, 24);
+  }
+.galic{
+  color: rgb(24, 22, 22);
+}
+.thumbnails {
+  width: 104px;
+  height: 70px;
+  margin: 0 10px;
+    cursor: pointer;
+}
+.thumbnails:first-child {
+  margin-left: 0;
+}
+.thumbnails:last-child {
+  margin-right: 0;
+}
+.gallery .image-container {
+  max-width: 600px;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  cursor: grab; 
+  cursor : -o-grab; 
+  cursor : -moz-grab; 
+  cursor : -webkit-grab;
+  overflow: scroll;
+  /* scroll-behavior: smooth; */
+}
+.gallery .images {
+  height: 70px;
+  display: flex;
+  position: absolute;
+}
+ .gallery .image-container::-webkit-scrollbar{
+  display : none;
+  /* overflow: hidden; */
+}
+.navigate {
+  position: sticky;
+  height: 70px;
+  width: 50px;
+  z-index: 3;
+  /* background-color: rgba(87, 87, 87, 0.233); */
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.navigate:hover {
+  color: rgb(255, 255, 255);
+  transition: background-color 1s ease-in-out;
+}
+.move-left {
+  left: 0;
+  animation-name: move-left;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.move-right {
+  left: 550px;
+  animation-name: move-right;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes move-left {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes move-right {
+  0% {
+    left : 550px;
+  }
+  50% {
+    left : 540px;
+  }
+  100% {
+    left : 550px;
+  }
+}
+                                                      /* Gallery  */
+
+
+
+
+
+                                                     /* news letter sign up */                        
+.newsbg{
+  background-image: url("/img/newsbg.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 100%;
+  height:400px;
+}
+
+.newshead{
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+} 
+.newsh{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 100px;
+  padding-right: 100px;
+}             
+
+.search {
+  margin-left: 2rem !important;
+  margin-top: 50px !important;
+  background:rgb(236, 184, 88);
+  border: box;
+  border-radius: 0;
+  border: 2px solid rgb(240, 78, 14);
+  transition: all .4s ease;
+}
+
+.search:focus {
+  background:rgb(243, 204, 131);
+  box-shadow: none;
+  border: 2px solid  #f70808;
+}
+
+.search-btn {
+  margin-top: 50px !important;
+  border-radius: 50%;
+  padding: 10px 16px;
+  transition: all .4s ease;
+}
+
+.search-btn:hover {
+  background-color: #eee;
+  transform: translateY(-1px);
+}
+                                                        
+                                                      /* news letter sign up */     
+                                                      
+                                                      /* blogs*/ 
+.blg{  margin-bottom: 2rem !important;}
+
+.blg:hover{
+  transform:scale3d(1.02,1.02,1.02);
+  transition: 0.35s;
+  background-color: rgba(236, 211, 204, 0.473);
+  box-shadow: 5px 5px 5px 5px rgba(25, 26, 26, 0.473);
+}   
+
+.blgbtn {
+  
+  margin-top: 1.2rem !important;
+  margin-left: 3.8rem !important;
+  margin-bottom: 2.2rem !important; 
+  background-color: #cf2d21;
+  border: none;
+  color: rgb(32, 31, 31);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.blgbtn:hover {background-color:#f74b16 ;
+color: rgb(19, 17, 17) !important;}
+
+                                                    /* blogs */ 
+
+
+                                                    /* contact section*/ 
+
+.map{
+  height: 100%;
+}
+
+.e{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=text]:hover, select:hover, textarea:hover {
+  background-color: lightyellow;
+}
+
+input[type=email]:hover{
+  background-color: lightyellow;
+}
+
+input[type=submit] {
+  background-color: #4fdd0d;
+  color: rgb(15, 14, 14);
+  padding: 12px 20px;
+  border:none;
+  border-radius:2rem;;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(14, 187, 80);
+  color: black;
+}
+
+/* Style the container/contact section */
+.container-contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .form-contact{
+    margin-left: 90px;
+  }
+}
+
+                                                         /*Contact section */ 
+
+
+                                                      /*Footer*/ 
+.footh{
+  font-weight: 200;
+}
+.footp{
+  font-weight: 150;
+}
+.fy{
+  color: #f70a0a;
+}
+
+.fi{
+  color: #b408df;
+}
+.ff{
+  color: #1220eb;
+}
+.ft{
+  color: #068fff;
+}
+.fl{
+  color: #0a1af7;
+}
+.fg{
+  color: #f71414;
+}
+
+                                                       /*Footer */ 
+
+
+                                                   
