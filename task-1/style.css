@@ -25,13 +25,11 @@ header::after {
   clear: both;
 }
 
-.logo {
-  float: left;
-  padding: 10px 0;
-}
-
 nav {
   float: right;
+}
+.navbar-brand { 
+	margin-right=0.3rem !important
 }
 
 nav ul {
@@ -48,7 +46,7 @@ nav li {
   
   display: inline-block;
   margin-left: 70px;
-  padding-top: 23px;
+  padding-top: 18px;
   text-decoration: none;
   position: relative;
 }
@@ -62,7 +60,9 @@ nav a {
   text-transform: uppercase;
   font-size: 14px;
 }
-.navbar-dark .navbar-brand {
+
+
+navbar-dark .navbar-brand {
   color: rgb(194, 37, 37);
 }
 nav a:hover {
@@ -81,12 +81,7 @@ nav a:hover {
                                 /*navbar */     
 
 
-
-                                
-
-
-                                     /*slider-1*/   
-
+                                /*slider-1*/
 .cabecalho{
    background-repeat:no-repeat;
    background-size:cover;
@@ -96,13 +91,13 @@ nav a:hover {
    }
 
    .carousel-caption p {
-     margin-bottom: 6rem !important; 
+     margin-bottom: 3rem !important; 
      font-family: sans-serif;
      font-weight: 50 !important;
      font-size: 25px;
     }
-    .carousel-caption h2 {
-      margin-bottom: 1rem !important; 
+    .carousel-caption h2 { 
+      margin-bottom: 2rem !important; 
       font-family: sans-serif;
       font-weight: 50 !important;
       font-size: 45px;
@@ -111,7 +106,9 @@ nav a:hover {
     .btspace {
       margin-bottom: 3rem;
       margin-right: 2rem;
-    }                               
+    }
+                              /*slider-1*/
+    
 
                                 /*features */  
   .featbg{
@@ -320,9 +317,7 @@ nav a:hover {
 }
                                                       /* team profile */   
                                                       
-                                                      
-
-/*  */
+ 
                                                       /* Gallery  */
 
 .main-showcase {
@@ -429,15 +424,12 @@ nav a:hover {
     left : 550px;
   }
 }
-                                                      /* Gallery  */
-
-
-
+                                                     /* Gallery  */
 
 
                                                      /* news letter sign up */                        
 .newsbg{
-  background-image: url("/img/newsbg.png");
+  background-image: url("img/newsbg.png");
   background-repeat:no-repeat;
   background-size:cover;
   width: 100%;
@@ -445,7 +437,7 @@ nav a:hover {
 }
 
 .newshead{
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-family: sans-serif;
   font-size: 45px;
   font-weight: 300;
@@ -454,8 +446,7 @@ nav a:hover {
   font-family: sans-serif;
   font-size: 20px;
   font-weight: 300;
-  padding-left: 100px;
-  padding-right: 100px;
+ 
 }             
 
 .search {
@@ -464,14 +455,14 @@ nav a:hover {
   background:rgb(236, 184, 88);
   border: box;
   border-radius: 0;
-  border: 2px solid rgb(240, 78, 14);
+  border: 2px solid rgb(255, 75, 3) !important;
   transition: all .4s ease;
 }
 
 .search:focus {
   background:rgb(243, 204, 131);
   box-shadow: none;
-  border: 2px solid  #f70808;
+  border: 2px solid  #f70808 !important;
 }
 
 .search-btn {
@@ -486,10 +477,11 @@ nav a:hover {
   transform: translateY(-1px);
 }
                                                         
-                                                      /* news letter sign up */     
+                                                    /* news letter sign up */     
                                                       
-                                                      /* blogs*/ 
-.blg{  margin-bottom: 2rem !important;}
+
+                                                    /* blogs*/ 
+.blg{ margin-bottom: 2rem !important;}
 
 .blg:hover{
   transform:scale3d(1.02,1.02,1.02);
@@ -602,7 +594,7 @@ input[type=submit]:hover {
                                                          /*Contact section */ 
 
 
-                                                      /*Footer*/ 
+                                                         /*Footer*/ 
 .footh{
   font-weight: 200;
 }
@@ -630,6 +622,3 @@ input[type=submit]:hover {
 }
 
                                                        /*Footer */ 
-
-
-                                                   
