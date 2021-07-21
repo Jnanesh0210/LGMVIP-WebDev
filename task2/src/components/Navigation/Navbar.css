@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    
+    color: white;
+}
+
+.logo{
+    font-size: 70px !important;
+}
+
+.nav-links{
+    font-family: sans-serif;
+    font-weight: 300;
+    display: center;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+
+@media  screen and (max-width: 700px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
